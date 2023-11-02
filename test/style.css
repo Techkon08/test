@@ -1,0 +1,574 @@
+body{
+    margin: 0;
+    overflow: scroll;
+    overflow-x: hidden;
+    
+}
+
+
+
+/* Navbar section */
+
+.container{
+    display:flex;
+    flex-direction: row;
+    background-color: black;
+    gap:20px;
+    padding: 10px 0 10px 0;
+}
+
+
+.logo{
+    margin: 5px 50px 5px 15px;
+}
+
+
+
+.left{
+    align-items:flex-start;
+}
+
+.right{
+    
+    align-items: flex-end;
+    margin-left: 850px;
+
+}
+
+.left a , .right a{
+    position: relative;
+    top: 10px;
+    margin: 5px;
+    padding: 12px;
+    text-decoration: none;
+    color: aliceblue;
+
+}
+
+.container a:hover{
+    background-color:blueviolet;
+    
+}
+
+/* Home Section */
+
+.home{
+    margin: 0;
+}
+.imgae{
+    
+   width: 100vw;
+    height: 45vw; 
+    background-image: url('Rectangle.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.homecontainer{
+   
+    position: absolute;
+    top: 220px;
+    left: 150px;
+    width:650px;
+    height: 200px;
+    padding: 20px;
+    text-align: left;
+}
+
+.homecontainer h1{
+color: #FFF;
+font-family: Playfair Display;
+font-size: 40px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+}
+
+.homecontainer h2{
+margin-top: -25px ;
+color: #FFF;
+font-family: Playfair Display;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.homecontainer p{
+color: #FAB9B9;
+font-family: Barlow;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 150% */
+}
+
+.btn{
+display: inline-flex;
+padding: 15px 35px;
+/* justify-content: center;
+align-items: center;
+gap: 10px; */
+color: beige;
+background-color: black;
+}
+
+/* Second layout */ 
+
+.second{
+    
+    background-color: black;
+   
+}
+
+.layout{
+    display: inline-flex;
+    width:1920px;
+    height: 930px;
+    
+    
+}
+
+ .item1{
+    
+    width: 500px;
+    height: 200px;
+    flex-shrink: 0;
+    color: #FFF;
+    position: relative;
+    top: 100px;
+    left: 300px;
+}
+.item1 hr{
+    display: inline-block;
+    width: 40px;
+    height: 2px;
+    background-color: red;
+}
+
+.item1 h4{
+    display: inline-block;
+    margin-left: 20px;
+    margin-bottom: 5px;
+    color: #FFF;
+    font-family: Barlow;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.item1  p{
+    margin-left: 70px !important;
+    color: #606060;
+    font-family: Barlow;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    }
+
+ .rect img{
+    width: 493px;
+    height: 453px; 
+    position: absolute;
+    top: -100px;
+    left: 540px;
+    z-index: 1;
+    
+}
+
+.item2{
+width: 500px;
+height: 250px;
+position: relative;
+top: 500px;
+left: 450px;
+}
+
+.item2 h3{
+color: #FFF;
+font-family: Playfair Display;
+font-size: 48px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-bottom: 5px;
+}
+.item2 p{
+    color: #606060;
+    font-family: Barlow;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 155.556% */
+}
+
+.btn1{
+display: inline-flex;
+padding: 15px 30px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+background-color: #FFF;
+color: black;
+}
+.img2 img{
+    width: 600px;
+    height: 500px; 
+    position: relative;
+    top: -370px;
+    left: -650px;
+    z-index: 0;
+   
+
+}
+
+/*Third*/
+
+.third{
+    width:1920px;
+    height: 500px;
+    margin-top: -47px;
+    
+}
+
+.thirdimg {
+    width: 58vw;
+    height: 58vw;
+    background-image: url('Rectangle8.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+.thirdimg h3{
+color: #000;
+font-family: Playfair Display;
+font-size: 48px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+position: relative;
+top: 115px;
+left: 773px;
+
+
+}
+
+.thirdimg h2{
+    color: #000;
+    font-family: Playfair Display;
+    font-size: 96px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+    position: relative;
+    top: 15px;
+    left: 750px;
+}
+
+.thirdcontent{
+    width: 400px;
+    height: 450px;
+  
+    display: flex;
+    position: relative;
+    top: 5px;
+    left: 1000px;
+    flex-direction: column;
+    gap: 15px;
+    
+}
+
+.ch h4{
+display: inline-block;
+color: #000;
+font-family: Barlow;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-align: left;
+margin: 0 0 -5px 15px;
+}
+
+.ch p{
+
+
+color: #606060;
+font-family: Barlow;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-left: 50px;
+}
+
+.btn2{
+display: inline-flex;
+padding: 15px 30px;
+background-color: #000;
+color: #FFF;
+width: 300px;
+height: 65px;
+justify-content: center;
+margin-left: 50px;
+}
+
+/*Fourth section*/
+
+.four{
+    width:1920px;
+    height: 900px;
+    background-color: #000;
+    margin-top: 24rem;
+}
+
+.fourth img{
+    position: relative;
+    width: 780px;
+    height: 500px;
+    top: 200px;
+    left: 100px;
+ 
+
+}
+
+.silder img {
+width: 78px;
+height: 6px;
+flex-shrink: 0;
+}
+
+.silderarrow img {
+width: 94px;
+height: 40px;
+flex-shrink: 0;
+margin-left: 780px;
+}
+
+
+.silder{
+    position: relative;
+    top:200px;
+    left: 92px;
+}
+.silderarrow{
+    position: relative;
+    top: 211px;
+    left: 708px;
+}
+
+
+
+.contentfour h3{
+color: #FFF;
+font-family: Playfair Display;
+font-size: 40px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-bottom: 0;
+}
+
+.contentfour p{
+color: #606060;
+font-family: Barlow;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; /* 155.556% */
+text-align: left;
+}
+
+.contentfour{
+    padding: 0 15px 0 0;
+    width: 400px;
+    position: relative;
+    top: -270px;
+    left: 980px;
+}
+
+.contentfour button{
+
+    padding: 13px 35px;
+    background: #FFF;
+    color: #000;
+    margin-top: 20px;
+
+}
+
+.five{
+    width: 1920px;
+    height: 700px;
+    background-color: #FFF;
+}
+.fivecontainer{
+    display: flex;
+}
+
+.five1{
+position: relative;
+width: 598px;
+height: 380px;
+top:130px;
+left: 140px;
+
+text-align: left;
+
+}
+
+.five1 h3{
+color: #000;
+font-family: Playfair Display;
+font-size: 48px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin: 0;
+}
+.five1 p{
+width: 495px;
+color: #606060;
+font-family: Barlow;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; /* 155.556% */
+}
+.tab{
+    text-align: center;
+    margin: 0 ;
+}
+.tab td{
+    border: 0.1px solid gray;
+   
+}
+.tab img{
+    width: 65%;
+    margin: 5px;
+}
+
+
+
+
+.five2{
+    position:relative;
+    width: 673px;
+    height: 457px;
+    top: 130px;
+    left: 230px;
+  
+}
+.five2 h3{
+margin: 0;
+margin-top: 0;
+color: #000;
+font-family: Playfair Display;
+font-size: 48px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+
+
+.five2 p{
+width: 630px;
+color: #606060;
+font-family: Barlow;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; /* 155.556% */
+}
+
+
+
+
+.mag{
+    margin-top: 49px;
+}
+
+.mag h4{
+color: #000;
+font-family: Playfair Display;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 134.5%; /* 26.9px */
+margin-bottom: 13.6px !important;
+
+}
+
+.mag h5{
+    color: #606060;
+font-family: Barlow;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-top: 0;
+}
+
+.mag img{
+    float: left;
+    margin-right: 14px;
+}
+
+
+.contact{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    align-items: center;
+    width: 1920px;
+    height: 200px;
+    flex-shrink: 0;
+    background: #E31336;
+}
+
+.contacth h4{
+color: #FFF;
+font-family: Playfair Display;
+font-size: 48px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-left: 105px;
+}
+
+.email{
+width: 500px;
+height: 50px;
+padding: 15px 5px;
+
+border: 1px solid #FFF;
+opacity: 0.5;
+margin-left: 271px;
+}
+
+.email img{
+    margin-left: 8px;
+}
+
+.email input{
+
+font-family: Barlow;
+font-size: 18px;
+border: none;
+outline: none;
+
+}
+
+.email button{
+width: 200px;   
+padding: 15px 30px;
+background-color: #000;
+color: wheat;
+margin-left: 55px;
+}
